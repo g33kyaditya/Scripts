@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Script to compile programs easily using g++ .
+#Generally we compile programs using -> g++ <INPUT FILE> -o <OUTPUT BINARY>
+#With this script, just do -> ./x.sh <INPUT FILE>
+#And the it compiles ans saves it right there as.
+
+#eg : INPUT FILE = xyz.cpp
+#     OUTPUT BINARY xyz
+
+
+b=`echo $1 | cut -d"." -f 1`
+g++ $1 -o $b
