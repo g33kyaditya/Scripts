@@ -3,7 +3,7 @@
 #Script to compile programs easily using g++ .
 #Generally we compile programs using -> g++ <INPUT FILE> -o <OUTPUT BINARY>
 #With this script, just do -> ./x <INPUT FILE>
-#And the it compiles ans saves it right there as.
+#And the it compiles and saves it right there.
 
 #eg : INPUT FILE = xyz.cpp
 #     OUTPUT BINARY xyz
