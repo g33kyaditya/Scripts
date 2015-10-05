@@ -2,7 +2,7 @@
 
 #Script to compile programs easily using g++ .
 #Generally we compile programs using -> g++ <INPUT FILE> -o <OUTPUT BINARY>
-#With this script, just do -> ./x <INPUT FILE>
+#With this script, just do -> x <INPUT FILE>
 #And the it compiles and saves it right there.
 
 #eg : INPUT FILE = xyz.cpp
@@ -10,7 +10,8 @@
 
 #--------------------------------------------------------------------------------
 #HOWTO :
-#Put this script in the directory you want your programs to be in.
+#Put this script in the directory ~/bin
+#If you don't have a bin in home directory, create one.
 #Do -> chmod +x x 
 #To make this script executable
 #--------------------------------------------------------------------------------
