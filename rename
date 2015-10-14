@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#I had 140 files of the form
+#   blahblah-foobar-blablah-abcd.extension
+#I wanted to rename all of them to 
+#    blahblah-foobar-blablah
+
+#HOWTO------------------------------------------------------
+#Put it into your ~/bin
+#Do     chmod + rename
+#to make it executable
+#Run in the directory
+#----------------------------------------------------------
+for a in *
+do
+    b=${a%*-*}
+    mv ./"$a" ./"$b" 
+done
