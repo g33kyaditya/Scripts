@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#The local MASTER 
+cd ~/kde/MASTERplasma-mediacenter
+git pull
+
+#The local testing
+cd ~/kde/plasma-mediacenter
+git pull
+
