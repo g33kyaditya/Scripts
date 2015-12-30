@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# The $1 is the file.cpp
+# The $2 is the file.o
+
+
+g++ -std=c++11 -c $1
+a=`echo $2 | cut -d"." -f 1`
+g++ $2 -o $a -lGL -lGLU -lglfw3 -lX11 -lXxf86vm -lXrandr -lpthread -lXi -lGLEW -ldl -lXcursor -lXinerama  
